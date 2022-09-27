@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "start": "node ./bin/www.js"
+  },
+  "name": "node02",
+  "version": "1.0.0",
+  "main": "server.js",
+  "bin": {
+    "node02": "bin/www.js"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
