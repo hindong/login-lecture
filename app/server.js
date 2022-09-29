@@ -6,7 +6,7 @@ const app = express();
 
 const PORT = 8080;
 // 라우팅
-const home = require("./routes/home")
+const home = require("./src/home")
 
 
 // 앱 세팅
