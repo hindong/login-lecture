@@ -4,13 +4,13 @@
 const express = require('express');
 const app = express();
 
-const PORT = 8080;
+
 // 라우팅
-const home = require("./src/home")
+const home = require("./src/routes/home")
 
 
 // 앱 세팅
-app.set("views", "./views");
+app.set("views", "./src/views");
 app.set("view engine", "ejs");
 
 
