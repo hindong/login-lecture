@@ -4,7 +4,7 @@
     "express": "^4.18.1"
   },
   "scripts": {
-    "start": "node ./bin/www.js"
+    "start": "nodemon ./bin/www.js"
   },
   "name": "node02",
   "version": "1.0.0",
